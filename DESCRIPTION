@@ -1,0 +1,22 @@
+Package: CaatingaArthropods
+Type: Package
+Title: Caatinga Arthropods
+Version: 1.0
+Date: 2019-10-24
+Author: Andy Rominger
+Maintainer: Andy Rominger <ajrominger@gmail.com>
+Description: Collecting and analyzing data on arthropod ecology and evolution in the Caatinga region of Brazil
+License: GPL-2
+URL: https://github.com/role-model/CaatingaArthropods
+BugReports: https://github.com/role-model/CaatingaArthropods/issues
+LazyLoad: yes
+LazyData: true
+Depends:
+    R (>= 3.5.1)
+Imports:
+    sp,
+    raster,
+    rgdal
+Suggests:
+    testthat
+RoxygenNote: 6.0.1
