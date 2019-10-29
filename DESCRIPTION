@@ -12,12 +12,14 @@ BugReports: https://github.com/role-model/CaatingaArthropods/issues
 LazyLoad: yes
 LazyData: true
 Depends:
-    R (>= 3.5.1)
-Imports:
+    R (>= 3.5.1), 
     sp,
     raster,
     rgdal, 
-    spatstat,
+    spatstat, 
+    rgeos, 
+    maptools
+Imports:
     stringr
 Suggests:
     testthat
