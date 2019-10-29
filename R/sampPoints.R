@@ -22,9 +22,22 @@
 #' @export 
 
 sampPoints <- function(n, area, dmin, name = 'pnt', seed = 123) {
+    # browser()
     r <- area@polygons
+    
+    # if(length(r) == 1 & length(r[[1]]@Polygons) > 1) {
+    #     r <- r[[1]]@Polygons
+    #     r <- lapply(1:length(r), function(i) {
+    #         Polygons(list(r[[i]]), as.character(i))
+    #     })
+    # }
+    
     r <- lapply(r, function(x) SpatialPolygons(list(x)))
-    w <- lapply(r, as.owin)
+    w <- lapply(r, function(x) {
+        o <- try(as.owin(x))
+        # if(class(o) == 'try-error') browser()
+        o
+    })
     te <- tess(tiles = w)
     
     set.seed(seed)
