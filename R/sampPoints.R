@@ -1,52 +1,40 @@
 #' @title Create randomized sampling points
 #'  
-#' @description Function to create randomized sampling points within spatial polygons, potentially with additional constraints such as roads
+#' @description Function to create randomized sampling points within spatial polygons, 
+#' potentially with additional constraints such as roads
 #' 
-#' @details foo
+#' @details This function uses \code{spatstat::rSSI} to generate points. Note that if 
+#' \code{spatstat::rSSI} cannot return the desired number of points it will issue a 
+#' warning but not an error. If the desired number of points cannot be generated this 
+#' is likely because \code{dmin} is too big for the \code{area} and one or both should be 
+#' adjusted.
 #' 
-#' @param x vector of integers representing a sample of species abundances
-#' @param model character naming model to be fit (can only be length one)
-#' @param par vector of model parameters
-#' @param keepData logical, should the data be stored with the fitted \code{sad} object
+#' @param n number of points desired
+#' @param area the spatial polygons within which points will be made
+#' @param dmin minimum distance between points
+#' @param name name to be applied to points in the form <name>_01, <name>_02, ...
+#' @param seed random seed
 #' 
-#' @return A \cod{SpatialPointsDataFrame} containing randomized sampling points
+#' @return A \code{SpatialPointsDataFrame} containing randomized sampling points including
+#' a column called \code{name} that is neccesary for output to some formats
 #'
 #' @author Andy Rominger <ajrominger@@gmail.com>
 #' @export 
 
-sampPoints <- function(n, area, dmin, seed = 123) {
-    set.seed(seed)
-    xy <- SpatialPoints(cbind(x = runif(n * 100, bbox(area)[1, 1], bbox(area)[1, 2]), 
-                              y = runif(n * 100, bbox(area)[2, 1], bbox(area)[2, 2])), 
-                        proj4string = CRS(proj4string(area)))
-    
-    xy <- xy[!is.na(over(xy, area)[, 1]), ]
+sampPoints <- function(n, area, dmin, name = 'pnt', seed = 123) {
+    r <- area@polygons
+    r <- lapply(r, function(x) SpatialPolygons(list(x)))
+    w <- lapply(r, as.owin)
+    te <- tess(tiles = w)
     
     set.seed(seed)
-    xy <- xy[sample(nrow(xy@coords), n), ]
+    xy <- rSSI(dmin, n, win = te)
     
-    d <- spDists(xy)
-    g <- cutree(hclust(as.dist(d)), h = dmin / 1)
-    
-    xy <- SpatialPointsDataFrame(xy, data = data.frame(name = 1:n, group = g), 
+    nnchar <- nchar(as.character(n))
+    num <- stringr::str_pad(1:n, ifelse(nnchar == 1, 2, nnchar), pad = '0')
+    xy <- SpatialPointsDataFrame(as.SpatialPoints.ppp(xy), 
+                                 data = data.frame(name = paste(name, num, sep = '_')), 
                                  proj4string = CRS(proj4string(area)))
     
     return(xy)
 }
-
-
-candPoints <- sampPoints(12, x, 200, seed = 3)
-
-plot(x)
-points(candPoints)
-
-candPoints@data <- candPoints@data[, 1, drop = FALSE]
-candPoints$name <- paste0('rcrTemp_', 
-                          sapply(candPoints$name, function(i) paste(rep(0, 2 - nchar(i)), 
-                                                                    collapse = '')), 
-                          candPoints$name)
-
-candPoints <- spTransform(candPoints, origCRS)
-
-writeOGR(candPoints, 'cri_rcr_candidate.GPX', 'rcr_candidate', driver = 'GPX')
-writeOGR(candPoints, 'cri_rcr_candidate.kml', 'rcr_candidate', driver = 'KML')
