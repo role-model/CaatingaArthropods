@@ -26,22 +26,11 @@ sampArea <- function(region, edgeBuffer = NULL, roads,
     # crs in units of meters
     crs <- CRS(sprintf('+proj=utm +zone=%s +ellps=WGS84 +datum=WGS84 +units=m +no_defs', 
                        utmZone))
-    
-    # if the two objects are already in the same projection, clip roads so we 
-    # don't waste computation
-    if(proj4string(region) == proj4string(roads)) {
-        roads <- raster::intersect(roads, region)
-        roadClip <- TRUE
-    } else {
-        roadClip <- FALSE
-    }
 
     region <- spTransform(region, crs)
     if(!is.null(edgeBuffer)) region <- gBuffer(region, width = -edgeBuffer)
 
     roads <- spTransform(roads, crs)
-    
-    if(!roadClip) roads <- raster::intersect(roads, region)
     
     # build sampling area
     sampHere <- gBuffer(roads, width = roadBufferMax)
