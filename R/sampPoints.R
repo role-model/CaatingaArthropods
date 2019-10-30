@@ -40,16 +40,22 @@ sampPoints <- function(n, area, dmin, name = 'pnt', seed = 123) {
         # calculate areas of polygons and max numbers of points they can contain
         ae <- lapply(o, function(x) {
             a <- x@polygons[[1]]@Polygons[[1]]@area
-            c(a = a, nmax = ceiling(a / (pi * dmin^2)))
+            c(a = a, nmax = ceiling(a / ((pi * dmin^2) / 1.25)))
         })
         ae <- do.call(rbind, ae)
-        ii <- rep(1:nrow(ae), ae[, 2])
+        ii <- 1:nrow(ae)
         
-        # use that info to randomply select polygons in proportion to their size
+        # use that info to randomply select polygons in proportion to their size, 
+        # number of times a polygon is selected equals number of potential points
+        # in that polygon
         set.seed(seed)
-        temp <- sample(ii, ifelse(n * 10 > length(ii), length(ii), n * 10), 
-                       prob = ae[ii, 1])
+        temp <- sample(ii, ifelse(n * 20 > length(ii), length(ii), n * 20), 
+                       prob = ae[ii, 1], replace = TRUE)
         temp <- table(temp)
+        
+        # limit potential number of points to allowable max
+        bad <- ae[as.integer(names(temp)), 2] - temp < 0
+        temp[bad] <- ae[as.integer(names(temp)), 2][bad]
         
         # generate points within those selected polygons
         pp <- lapply(1:length(temp), function(i) {
