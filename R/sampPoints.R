@@ -49,8 +49,7 @@ sampPoints <- function(n, area, dmin, name = 'pnt', seed = 123) {
         # number of times a polygon is selected equals number of potential points
         # in that polygon
         set.seed(seed)
-        temp <- sample(ii, ifelse(n * 20 > length(ii), length(ii), n * 20), 
-                       prob = ae[ii, 1], replace = TRUE)
+        temp <- sample(ii, n * 50, prob = ae[ii, 1], replace = TRUE)
         temp <- table(temp)
         
         # limit potential number of points to allowable max
@@ -75,9 +74,10 @@ sampPoints <- function(n, area, dmin, name = 'pnt', seed = 123) {
         set.seed(seed)
         pp <- pp[order(runif(nrow(pp))), ]
         pdist <- as.matrix(dist(pp)) < dmin
+        pp <- pp[which(diag(pdist %*% upper.tri(pdist)) == 0)[1:n], ]
         
         # convert to spatial object
-        xy <- SpatialPoints(pp[which(diag(pdist %*% upper.tri(pdist)) == 0)[1:n], ])
+        xy <- SpatialPoints(pp[!is.na(pp[, 1]), ])
     }
 
     # write out sampling points
