@@ -28,6 +28,13 @@ sampArea <- function(region, edgeBuffer = NULL, roads,
                        utmZone))
 
     region <- spTransform(region, crs)
+    
+    if(!is.null(exclude)) {
+        exclude <- spTransform(exclude, crs)
+        exclude <- raster::intersect(exclude, region)
+        region <- gDifference(region, exclude)
+    }
+    
     if(!is.null(edgeBuffer)) region <- gBuffer(region, width = -edgeBuffer)
 
     roads <- spTransform(roads, crs)
@@ -37,11 +44,11 @@ sampArea <- function(region, edgeBuffer = NULL, roads,
     sampHere <- gIntersection(sampHere, region, byid = TRUE, drop_lower_td = TRUE)
     sampHere <- gDifference(sampHere, gBuffer(roads, width = roadBufferMin))
     
-    if(!is.null(exclude)) {
-        exclude <- spTransform(exclude, crs)
-        exclude <- raster::intersect(exclude, region)
-        sampHere <- gDifference(sampHere, exclude)
-    }
+    # if(!is.null(exclude)) {
+    #     exclude <- spTransform(exclude, crs)
+    #     exclude <- raster::intersect(exclude, region)
+    #     sampHere <- gDifference(sampHere, exclude)
+    # }
     
     return(sampHere)
 }
