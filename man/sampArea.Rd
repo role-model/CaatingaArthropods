@@ -4,11 +4,13 @@
 \alias{sampArea}
 \title{Create a sampling area}
 \usage{
-sampArea(region, roads, roadBufferMin = 100, roadBufferMax = 2100,
-  exclude = NULL, utmZone = 13)
+sampArea(region, edgeBuffer = NULL, roads, roadBufferMin = 100,
+  roadBufferMax = 2100, exclude = NULL, utmZone = 13)
 }
 \arguments{
 \item{region}{the larger area to consider (a \code{SpatialPolygonsDataFrame})}
+
+\item{edgeBuffer}{an optional buffer to exclude edge effects}
 
 \item{roads}{a \code{SpatialLinesDataFrame} of access roads}
 

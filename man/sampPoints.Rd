@@ -18,8 +18,8 @@ sampPoints(n, area, dmin, name = "pnt", seed = 123)
 \item{seed}{random seed}
 }
 \value{
-A \code{SpatialPointsDataFrame} containing randomized sampling points including
-a column called \code{name} that is neccesary for output to some formats
+A \code{SpatialPointsDataFrame} containing randomized sampling points 
+including a column called \code{name} that is neccesary for output to some formats
 }
 \description{
 Function to create randomized sampling points within spatial polygons, 
@@ -29,8 +29,8 @@ potentially with additional constraints such as roads
 This function uses \code{spatstat::rSSI} to generate points. Note that if 
 \code{spatstat::rSSI} cannot return the desired number of points it will issue a 
 warning but not an error. If the desired number of points cannot be generated this 
-is likely because \code{dmin} is too big for the \code{area} and one or both should be 
-adjusted.
+is likely because \code{dmin} is too big for the \code{area} and one or both should  
+be adjusted.
 }
 \author{
 Andy Rominger <ajrominger@gmail.com>
