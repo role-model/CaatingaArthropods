@@ -1,0 +1,2522 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="roads" id="roads">
+	<SimpleField name="MED_DESCRI" type="string"></SimpleField>
+	<SimpleField name="RTT_DESCRI" type="string"></SimpleField>
+	<SimpleField name="F_CODE_DES" type="string"></SimpleField>
+	<SimpleField name="ISO" type="string"></SimpleField>
+	<SimpleField name="ISOCOUNTRY" type="string"></SimpleField>
+	<SimpleField name="region" type="string"></SimpleField>
+</Schema>
+<Folder><name>roads</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Unknown</SimpleData>
+		<SimpleData name="RTT_DESCRI">Unknown</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.87732799,-3.2739262 -40.87733837,-3.27398247 -40.87224954,-3.31305066 -40.87315372,-3.31443716</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.87515636,-3.35424642 -40.8767967,-3.34873745 -40.88256082,-3.34279793 -40.88351432,-3.33774445 -40.88151168,-3.32967907 -40.87315372,-3.31443716</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.71226879,-3.37836584 -40.70840072,-3.37557696 -40.6988067,-3.37343559 -40.68882754,-3.3744307</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.87315372,-3.31443716 -40.86717603,-3.31853506 -40.85960393,-3.32124059 -40.85176856,-3.32877546 -40.79952612,-3.33828877 -40.7593383,-3.36208954 -40.75194934,-3.36646527 -40.73616784,-3.36542993 -40.73066322,-3.36676899 -40.71226879,-3.37836584</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_05</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.55923215,-3.43956353 -39.575901,-3.4881618 -39.57820888,-3.49481989</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Unknown</SimpleData>
+		<SimpleData name="RTT_DESCRI">Unknown</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_05</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.57820888,-3.49481989 -39.57610323,-3.4939762 -39.57490535,-3.49349595 -39.5645714,-3.48411852 -39.55340585,-3.47850012 -39.54448316,-3.47773127 -39.5360031,-3.47903688 -39.52747731,-3.48206787 -39.52590181,-3.48262826 -39.51784134,-3.48807789 -39.51229854,-3.49306843 -39.50999841,-3.49513968 -39.49956126,-3.5104604 -39.49439627,-3.51613456 -39.48522958,-3.52620561 -39.47997292,-3.53621146 -39.46381002,-3.56696233 -39.45477676,-3.5786138 -39.44070061,-3.59137054 -39.43839651,-3.59700728 -39.4383126,-3.59721348</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Unknown</SimpleData>
+		<SimpleData name="RTT_DESCRI">Unknown</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_05</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.57820888,-3.49481989 -39.58301553,-3.49463203 -39.58677682,-3.49766907 -39.58733361,-3.49812002 -39.59098812,-3.49907239</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Unknown</SimpleData>
+		<SimpleData name="RTT_DESCRI">Unknown</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_05</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.59098812,-3.49907239 -39.59130469,-3.49890891 -39.59263223,-3.49822435 -39.67775545,-3.45463592</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.71226879,-3.37836584 -40.70283505,-3.38565709 -40.68968575,-3.39936166 -40.67602162,-3.4213435 -40.67459108,-3.4289241 -40.68145745,-3.4593393 -40.68096926,-3.46658273 -40.67359164,-3.47055248 -40.67287061,-3.47560804 -40.67558673,-3.51036363 -40.67502975,-3.52324077 -40.67219153,-3.53587202 -40.66354365,-3.54839799 -40.65544122,-3.55667846 -40.65419004,-3.55795837 -40.64128871,-3.56646734 -40.64133445,-3.59108118 -40.63842782,-3.6124533 -40.63493737,-3.61978821 -40.629631,-3.62526958 -40.62730025,-3.63100309 -40.62789541,-3.64296962 -40.62598803,-3.65284676 -40.622284,-3.65834024 -40.61217118,-3.66817466 -40.60913849,-3.67112401 -40.58727936,-3.70354113</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_05</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.41684244,-3.56951455 -39.42094425,-3.57371133 -39.43823624,-3.59711104</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-41.22428457,-3.61262702 -41.22285078,-3.61131193 -41.22154233,-3.60164194 -41.21697609,-3.59977084 -41.2095603,-3.59402391 -41.19511787,-3.5828302 -41.19032672,-3.58049718 -41.16860192,-3.57758923 -41.12929918,-3.56742916 -41.10803612,-3.56406269 -41.10002138,-3.56423751 -41.09727105,-3.56559756 -41.09428788,-3.57241101 -41.09348671,-3.58213487 -41.09529487,-3.58559829 -41.10236366,-3.58978748 -41.10777662,-3.6013265 -41.11480704,-3.61057672 -41.11592857,-3.61403467 -41.11786657,-3.63153096 -41.11734777,-3.64049864 -41.11381914,-3.65404672 -41.11274335,-3.67727312 -41.10366058,-3.68610566 -41.08831019,-3.70102891 -41.08517846,-3.72332089 -41.07692709,-3.72487428 -41.06567007,-3.73031692 -41.03290559,-3.7342296 -41.00542065,-3.73541784</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_05</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.71229783,-3.53421454 -39.70154953,-3.52464504 -39.69567484,-3.51562331 -39.67861173,-3.50374428 -39.67440024,-3.50179437 -39.67405324,-3.50163467 -39.66923525,-3.50274296 -39.66561515,-3.50523549 -39.659336,-3.50955849 -39.65382381,-3.51158079 -39.64599997,-3.5110412 -39.64238742,-3.51079172 -39.63805762,-3.50822396 -39.63395311,-3.50371404 -39.63193894,-3.50149972 -39.62508013,-3.50051976 -39.61883538,-3.50450293 -39.61334228,-3.50800888 -39.60738368,-3.50864694 -39.60189436,-3.50813929 -39.59460822,-3.5039348 -39.59257893,-3.50120809 -39.59098812,-3.49907239</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_05</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.4383126,-3.59721348 -39.44606027,-3.6063711 -39.45334622,-3.61080693 -39.46703341,-3.6162197 -39.50196836,-3.62619115 -39.50696571,-3.630606 -39.50851438,-3.63660051 -39.50796892,-3.64648786 -39.51093301,-3.64789364 -39.53107077,-3.64853208 -39.53916545,-3.65042643 -39.54843515,-3.65259558 -39.55274586,-3.65677399 -39.55905147,-3.66879175 -39.57429885,-3.67904727 -39.58068081,-3.68571934 -39.58519357,-3.69118144</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_05</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.4383126,-3.59721348 -39.42806237,-3.62231306 -39.42477037,-3.65747972 -39.41347119,-3.66658064 -39.40699294,-3.66890064</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Unknown</SimpleData>
+		<SimpleData name="RTT_DESCRI">Unknown</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_06</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.34949524,-3.65969361 -40.34921643,-3.65303255 -40.3530312,-3.63350866 -40.35285959,-3.62660619 -40.35110851,-3.61624105 -40.35056305,-3.5982938 -40.34341432,-3.57592395 -40.34284202,-3.56142708 -40.34516521,-3.55090167 -40.347351,-3.54098919 -40.34251411,-3.52932827 -40.34151071,-3.52691134</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Unknown</SimpleData>
+		<SimpleData name="RTT_DESCRI">Unknown</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_06</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.37483477,-3.66535585 -40.37802116,-3.65831775 -40.38973614,-3.65311798 -40.39350121,-3.64003464 -40.39650725,-3.63614729 -40.40615457,-3.63208152 -40.41215891,-3.62522706 -40.42110825,-3.6225357 -40.43827058,-3.62335823 -40.44448093,-3.61949544 -40.44703678,-3.61468388 -40.44874194,-3.60112502 -40.44991676,-3.59872245 -40.45176688,-3.59493735 -40.44890977,-3.57973287 -40.45057675,-3.57146412 -40.44723126,-3.56016683 -40.4560432,-3.54528195</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.58641021,-3.71260455 -40.60207745,-3.72743089</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Unknown</SimpleData>
+		<SimpleData name="RTT_DESCRI">Unknown</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.99675367,-3.73098636 -40.99452971,-3.7278671 -40.98062517,-3.71292967 -40.9777947,-3.69266679 -40.97304154,-3.68504159 -40.96278376,-3.67852827 -40.95621109,-3.66928069 -40.94501114,-3.66667098 -40.93367776,-3.65117789 -40.92933265,-3.65045742 -40.92839804,-3.65321059 -40.93336496,-3.6626776 -40.93219373,-3.66657969 -40.9241943,-3.66468308 -40.90537255,-3.67144965 -40.88473885,-3.67590287 -40.87944799,-3.67931602 -40.87643816,-3.6838953 -40.87309645,-3.70296427 -40.86914446,-3.71098751 -40.863369,-3.7185373 -40.84303657,-3.73688845 -40.83732612,-3.7420438 -40.82368845,-3.75988842 -40.81976708,-3.76377086 -40.81425849,-3.76580148 -40.77785104,-3.7662273 -40.76409921,-3.76819705 -40.75649649,-3.7745828 -40.74877925,-3.76555446 -40.74081422,-3.7588253 -40.73896032,-3.75803301 -40.73259744,-3.75531444 -40.72344588,-3.75455692 -40.71084222,-3.75607422 -40.69143287,-3.74879998 -40.66558447,-3.74607782 -40.62360757,-3.75657733 -40.61647414,-3.75740213 -40.58625418,-3.76089806</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-41.00542065,-3.73541784 -41.00015643,-3.735611 -40.99876785,-3.73372478 -40.99675367,-3.73098636</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Unknown</SimpleData>
+		<SimpleData name="RTT_DESCRI">Unknown</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.99675367,-3.73098636 -40.99389656,-3.74207593 -40.97391888,-3.78718569 -40.95071403,-3.83026938 -40.93959799,-3.84767363 -40.93435665,-3.8529301 -40.92560954,-3.86170046 -40.92145154,-3.86525044 -40.91767891,-3.87121207 -40.91481783,-3.88660423 -40.90235139,-3.90077829 -40.89609152,-3.91131466 -40.89320001,-3.92171552 -40.89251715,-3.93061307</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_05</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.45022583,-3.75455466 -39.434536,-3.74245261 -39.41221623,-3.72937135 -39.40722857,-3.72555692</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.58177202,-3.76097135 -40.58625418,-3.76089806</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_05</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.45022583,-3.75455466 -39.47235112,-3.76418345 -39.48082361,-3.76402885 -39.4991912,-3.75821048 -39.50886913,-3.75116494 -39.51300048,-3.75005135 -39.53544234,-3.74978902 -39.54302219,-3.746865 -39.55248636,-3.73820691 -39.56107339,-3.72648211 -39.5615234,-3.72586389 -39.57410437,-3.70112984 -39.58057781,-3.6938248 -39.58519357,-3.69118144</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_05</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.67656718,-3.74047503 -39.67338172,-3.7369597 -39.67063139,-3.73668433 -39.66835016,-3.7364562 -39.66238022,-3.73847454 -39.65277108,-3.73770115 -39.64707179,-3.73512149 -39.64411923,-3.73210524 -39.64032751,-3.72080039 -39.63692098,-3.71732014 -39.60976413,-3.7074224 -39.59021,-3.69229919 -39.58519357,-3.69118144</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_05</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.45259235,-3.75961398 -39.45022583,-3.75455466</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Unknown</SimpleData>
+		<SimpleData name="RTT_DESCRI">Unknown</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.75180438,-3.9139531 -40.74538802,-3.9098707 -40.74018863,-3.90535624 -40.68159863,-3.87018845 -40.63905719,-3.84223724 -40.62281415,-3.83156441 -40.58816535,-3.78046561 -40.58895102,-3.76758942 -40.58625418,-3.76089806</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Unknown</SimpleData>
+		<SimpleData name="RTT_DESCRI">Unknown</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.75180438,-3.9139531 -40.74382404,-3.9176781 -40.73207864,-3.91863897 -40.72495277,-3.92226759 -40.69775,-3.94622163 -40.69517526,-3.95379354 -40.70238882,-3.98101597 -40.7015954,-3.98374683</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Unknown</SimpleData>
+		<SimpleData name="RTT_DESCRI">Unknown</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.89251715,-3.93061307 -40.88673016,-3.92249344 -40.85607152,-3.90389697 -40.81163403,-3.90587694 -40.80796044,-3.90723037 -40.80242538,-3.91225115 -40.78084555,-3.91945602 -40.7692986,-3.91937154 -40.76825324,-3.91936398 -40.75180438,-3.9139531</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Unknown</SimpleData>
+		<SimpleData name="RTT_DESCRI">Unknown</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.89251715,-3.93061307 -40.89274981,-3.93762667 -40.87277988,-4.03191953 -40.86941908,-4.04164036 -40.86658862,-4.05137159 -40.86616904,-4.05924704 -40.87547691,-4.10256149 -40.8743705,-4.10836832 -40.87333289,-4.11381776</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.6772728,-3.99000783 -40.6876145,-3.98525335 -40.6996727,-3.98386552 -40.7015954,-3.98374683</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.56051837,-3.9826033 -40.56580362,-3.98158316 -40.59160987,-3.9912093 -40.59467318,-3.99141305 -40.595501,-3.99146842</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_04</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-38.93994013,-3.97926362 -38.93973929,-3.98472264 -38.93785855,-3.98976534 -38.93531801,-3.99227148 -38.91111779,-3.97457633</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.595501,-3.99146842 -40.61198048,-3.99274228 -40.64406588,-3.98976119 -40.6772728,-3.99000783</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-41.13237197,-3.84916328 -41.12495804,-3.84318923 -41.02672189,-3.76401278 -41.01991279,-3.75852328 -41.00542065,-3.73541784</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_04</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-38.64370172,-4.0927206 -38.64762505,-4.11163084 -38.65077209,-4.11764331 -38.65644454,-4.12299069 -38.66259385,-4.12627229 -38.66803743,-4.13207667 -38.67764656,-4.15632632 -38.68626402,-4.16492223 -38.69098278,-4.17440077 -38.69173822,-4.18069749 -38.69415666,-4.20088723 -38.69928744,-4.21496962 -38.70215608,-4.21836047</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.7545205,-4.04256533 -40.75421526,-4.02208945 -40.73371878,-4.00629661 -40.70458991,-3.98671205 -40.7015954,-3.98374683</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.595501,-3.99146842 -40.60407253,-4.00901613 -40.60447699,-4.01569028 -40.60279848,-4.02579933 -40.60410315,-4.03501081 -40.61585989,-4.0555725 -40.62290581,-4.06252619</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.6772728,-3.99000783 -40.66020194,-4.00644403 -40.65513995,-4.00962735 -40.64619836,-4.0107107 -40.64319232,-4.01459938 -40.64219667,-4.02494335 -40.63827889,-4.02836462 -40.63116077,-4.0306124 -40.62701033,-4.034492 -40.62420273,-4.04252205 -40.6250228,-4.05495069 -40.62452309,-4.06046779 -40.62290581,-4.06252619</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Unknown</SimpleData>
+		<SimpleData name="RTT_DESCRI">Unknown</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.87333289,-4.11381776 -40.87953946,-4.11309106 -40.89740374,-4.11099958 -40.92177208,-4.13072627 -40.93099982,-4.15333596 -40.94211963,-4.16210273 -40.94646833,-4.16366916 -40.97952502,-4.17362484</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Unknown</SimpleData>
+		<SimpleData name="RTT_DESCRI">Unknown</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.87333289,-4.11381776 -40.86913293,-4.1154923 -40.83404168,-4.13078826 -40.81800465,-4.13090223 -40.80949776,-4.13567164 -40.79613112,-4.14684683 -40.76506424,-4.16076366 -40.75821677,-4.16290333 -40.75508126,-4.16800784 -40.75622169,-4.18474247 -40.75780872,-4.18728395</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.62290581,-4.06252619 -40.62427134,-4.06391666 -40.62401203,-4.06759554 -40.62006382,-4.07515724 -40.59136587,-4.11427873 -40.58438875,-4.13419196 -40.58399204,-4.13585327 -40.58361045,-4.13696573 -40.58035662,-4.14640193 -40.57506179,-4.14981262 -40.56838192,-4.1523634</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-41.00109103,-4.05675318 -41.02538354,-4.05989335</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_04</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-38.70218651,-4.2184629 -38.71135717,-4.22198964 -38.72648246,-4.22167779 -38.72875594,-4.22331056 -38.72941215,-4.22676756 -38.72397613,-4.24350729 -38.72490318,-4.26037082 -38.72553255,-4.2718176 -38.72852707,-4.28061669 -38.732212,-4.29143675 -38.73393625,-4.30226513 -38.74228664,-4.31545922</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_04</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-38.93525319,-4.28580663 -38.92858886,-4.26411869 -38.93000787,-4.25930165 -38.93696968,-4.25016633 -38.93932349,-4.24351731 -38.93844218,-4.2398286 -38.92619706,-4.22682899 -38.91477957,-4.22303954 -38.91046149,-4.21954776 -38.90869132,-4.21285962 -38.909092,-4.19514994 -38.90643692,-4.18546294 -38.90119936,-4.18215903 -38.90051272,-4.18172603 -38.89067451,-4.18071129 -38.87828443,-4.18289273 -38.87095633,-4.18236201 -38.86753846,-4.18071885 -38.86640937,-4.17909817 -38.87037667,-4.17154403 -38.86858741,-4.16692695 -38.85946267,-4.16292809 -38.85720053,-4.15991543 -38.85504537,-4.14586214 -38.85208884,-4.14399331 -38.83877946,-4.1461653 -38.83111948,-4.13297896 -38.82612232,-4.12878996 -38.81698606,-4.12594079 -38.79638298,-4.12459095 -38.79091256,-4.12200732 -38.78979501,-4.11900619 -38.79073717,-4.11625435 -38.80011365,-4.1177259 -38.80241397,-4.11682796 -38.80449675,-4.11454768 -38.80430605,-4.1108652 -38.80022422,-4.10668471 -38.78445443,-4.10285085 -38.77807625,-4.09933847 -38.77218247,-4.09306953 -38.76005548,-4.06833699 -38.75316624,-4.06227633 -38.7407531,-4.05135496 -38.73646544,-4.04510171</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.75780872,-4.18728395 -40.76624682,-4.19217678 -40.77077866,-4.19888061 -40.77211375,-4.20441151 -40.77022942,-4.21129886 -40.79392624,-4.22849408 -40.81234354,-4.24749085 -40.83208856,-4.27316763 -40.83751683,-4.27829936 -40.85097495,-4.2910166 -40.8548279,-4.29656507</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_04</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-38.8832092,-4.32345297 -38.88255696,-4.30991641 -38.8846473,-4.30671589 -38.88694762,-4.30581814 -38.89148721,-4.31046243 -38.8944702,-4.30980056 -38.89726249,-4.30545658 -38.90386955,-4.30943106 -38.9070816,-4.30877107 -38.90894703,-4.30533883 -38.91042709,-4.29454088 -38.91390601,-4.2899737 -38.91805645,-4.28725248 -38.92540742,-4.28548249 -38.93525319,-4.28580663</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.71369177,-4.32866332 -40.71312326,-4.32183645 -40.71095279,-4.31588031 -40.7096863,-4.31276181 -40.70134743,-4.30627211 -40.70103066,-4.30602698 -40.6818466,-4.29760363 -40.66971204,-4.29682344 -40.63889314,-4.28210261 -40.63571548,-4.27816819 -40.63463969,-4.2689586 -40.63191601,-4.26548762 -40.61087426,-4.25049406 -40.58147821,-4.22954329</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.71369177,-4.32866332 -40.71451959,-4.3289661 -40.71749124,-4.33005134 -40.72397224,-4.33241989 -40.72970574,-4.33177181 -40.73568344,-4.32882492 -40.73866264,-4.32907685 -40.74161142,-4.33300919 -40.74438481,-4.32957941 -40.74396126,-4.32520538 -40.74628067,-4.32131141 -40.73898319,-4.3166571 -40.73649217,-4.31272892 -40.73697657,-4.30905155 -40.74274826,-4.3033428 -40.74461369,-4.29875615 -40.74539955,-4.28541956 -40.75386429,-4.25603667 -40.75983423,-4.24595031 -40.76430125,-4.23839995 -40.7646027,-4.22874072 -40.76146701,-4.21882635 -40.76091758,-4.20041888 -40.75780872,-4.18728395</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.8548279,-4.29656507 -40.86647805,-4.30124906 -40.90452186,-4.33142612 -40.9186859,-4.33704755 -40.92413668,-4.33748142</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.71369177,-4.32866332 -40.71368025,-4.34436658 -40.71364585,-4.39629357 -40.71678552,-4.45505858 -40.71907809,-4.49800676 -40.72243113,-4.50976331 -40.72540656,-4.54103431</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_04</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.22009719,-4.26379689 -39.2169265,-4.26129635 -39.21250144,-4.25780722 -39.20842358,-4.25293915 -39.20485696,-4.24209452 -39.19945137,-4.23215293 -39.18943777,-4.22469953 -39.18469992,-4.21706393 -39.17857368,-4.18618208 -39.17338185,-4.17785266 -39.15042118,-4.16038075 -39.14767841,-4.15829078 -39.13900766,-4.1545295 -39.1271171,-4.15234844 -39.11154558,-4.15174382 -39.10538475,-4.14915566 -39.09199523,-4.13568827 -39.07288355,-4.12193682 -39.06766507,-4.1165972 -39.05411151,-4.09645603 -39.05189132,-4.09236947 -39.04127878,-4.07287129 -39.02222815,-4.0531378 -39.00517657,-4.03963432 -38.98215108,-4.02837426 -38.9659156,-4.02591991 -38.95317454,-4.0259647 -38.94827661,-4.0259819 -38.92443464,-4.02828506 -38.86768342,-4.0233703 -38.8610688,-4.02054588 -38.84611134,-4.0040683 -38.83927162,-4.00078197 -38.83610908,-4.00032043 -38.81731794,-3.99757917 -38.80411157,-3.98962945 -38.78657677,-3.98120052</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_04</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.0771026,-4.47715703 -39.06502909,-4.44506975 -39.06049347,-4.440196 -39.05545813,-4.4394589 -39.04490664,-4.44073957 -39.0403404,-4.43885656 -39.0390053,-4.43470328 -39.04483406,-4.42417674 -39.05332186,-4.39872222 -39.05152504,-4.39479442 -39.04374693,-4.3935714 -39.03897865,-4.3891558 -39.0376205,-4.3867039 -39.03244398,-4.3773622 -39.02315898,-4.36600311 -39.01686093,-4.35352174 -39.01533891,-4.34476612 -39.01757044,-4.32684382 -39.01652905,-4.31579204 -39.01473241,-4.31209464 -39.00654985,-4.30511619 -38.97602086,-4.28997748 -38.96824257,-4.28612037 -38.95978161,-4.28442957 -38.94876102,-4.2868552 -38.93525319,-4.28580663</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_04</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.0771026,-4.47715703 -39.08959588,-4.46439216 -39.10275273,-4.45416348 -39.11132426,-4.44458194 -39.12055597,-4.43730638 -39.13903431,-4.39699211 -39.14457314,-4.39290291 -39.14893715,-4.39179329 -39.1602936,-4.39257008 -39.19486245,-4.38140585 -39.20061108,-4.37915845 -39.21329109,-4.370534 -39.2305634,-4.36297138</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_04</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-38.74228664,-4.31545922 -38.72929762,-4.3314352 -38.71314625,-4.3427786 -38.70481494,-4.35143858 -38.69644167,-4.36377858 -38.68822093,-4.38440131 -38.68413153,-4.40391405 -38.67855452,-4.41191045 -38.67761614,-4.41903311 -38.67731468,-4.42132946 -38.66897581,-4.43021926 -38.66699382,-4.43552669</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_04</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.0771026,-4.47715703 -39.05836098,-4.49607461 -39.04798507,-4.50287823 -39.02474979,-4.51255087 -38.99963755,-4.52634579 -38.9883843,-4.52899935 -38.96888725,-4.53859243 -38.93104926,-4.55720893 -38.9213906,-4.56073945 -38.92000958,-4.56124408</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_04</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-38.92000958,-4.56124408 -38.92047509,-4.55699006 -38.92126473,-4.54975458 -38.91975783,-4.5398489 -38.9150162,-4.53244256 -38.91011808,-4.51721331 -38.90001678,-4.49549381 -38.89986804,-4.4949321 -38.89736171,-4.48534678 -38.89984139,-4.4660478 -38.88511659,-4.44443225 -38.88312151,-4.4415035 -38.87288281,-4.43381404 -38.86676412,-4.42662429 -38.8510208,-4.39587777 -38.84626386,-4.39031115 -38.83510965,-4.38284206 -38.81713858,-4.37404109 -38.80903634,-4.3689842 -38.78727337,-4.35408401 -38.76443858,-4.34627056 -38.755806,-4.33859546 -38.74228664,-4.31545922</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_04</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.0771026,-4.47715703 -39.09416571,-4.51481207 -39.09568791,-4.52333729 -39.09094231,-4.54077538 -39.09543995,-4.54978897 -39.09572185,-4.55190385</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.8548279,-4.29656507 -40.83736808,-4.30334035 -40.81028741,-4.30981586 -40.7803689,-4.32777162 -40.77850347,-4.33258829 -40.78453446,-4.35333595 -40.79845053,-4.3614879 -40.79921333,-4.36312861 -40.80048379,-4.36587326 -40.79305647,-4.37893109 -40.79183968,-4.38835387 -40.7934494,-4.41872976 -40.79725642,-4.431179 -40.81803508,-4.47227478 -40.8244934,-4.47908162 -40.83099746,-4.48594043 -40.83143235,-4.48916382 -40.82543557,-4.49464123 -40.82307817,-4.5035953 -40.81340024,-4.51065634 -40.80968469,-4.51730063 -40.80917363,-4.52488747 -40.81227493,-4.53940154 -40.81790165,-4.55324408 -40.81966011,-4.56383791 -40.82281489,-4.57099156 -40.82366936,-4.57973867 -40.82731631,-4.58252529 -40.83074571,-4.58905883 -40.83228682,-4.5919923 -40.83729173,-4.59708887 -40.84665687,-4.6017566 -40.85142893,-4.60708187 -40.86197664,-4.60669763 -40.8660889,-4.608107 -40.87200555,-4.61436026 -40.8755493,-4.6314073 -40.87803276,-4.63648516 -40.88077155,-4.63788509 -40.88743588,-4.63586241 -40.90728769,-4.6477352 -40.91621397,-4.64963919 -40.92456059,-4.65371648 -40.94368575,-4.66305807</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_04</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-38.92000958,-4.56124408 -38.91938355,-4.56359755</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_07</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-40.82738188,-4.71996468 -40.82065973,-4.70944937 -40.8183785,-4.70782284 -40.81219479,-4.707088 -40.79816816,-4.71296685 -40.79084006,-4.7124539 -40.78171155,-4.70686669 -40.77644355,-4.70613866 -40.76588053,-4.70905153 -40.75193781,-4.70577994 -40.74665829,-4.70454123 -40.74023437,-4.70541384 -40.72848896,-4.71268883 -40.71331396,-4.71924789 -40.70643228,-4.71965688 -40.69705581,-4.71659811 -40.68125144,-4.71533105 -40.67486569,-4.71068335 -40.66299628,-4.70995091</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_03</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-35.679876,-6.65821832 -35.66901019,-6.69046931 -35.64656058,-6.73589187 -35.64689247,-6.74554731</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_03</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-35.64689247,-6.74554731 -35.63694388,-6.75046774 -35.63326254,-6.75064804 -35.6320915,-6.75224075 -35.62566002,-6.7519236 -35.62206259,-6.74613094 -35.6129935,-6.67371438</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_03</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-35.75013731,-6.82574322 -35.74332424,-6.80267672 -35.74102789,-6.78564366 -35.73456201,-6.77085158 -35.72466275,-6.75532485 -35.71486669,-6.74898919 -35.70183571,-6.74398938 -35.69402699,-6.74365523 -35.68710335,-6.74562972 -35.67871855,-6.75094458 -35.67574691,-6.7528291 -35.67090983,-6.75368301 -35.65919882,-6.75283629 -35.65119165,-6.75043013 -35.64689247,-6.74554731</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_03</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-35.76378021,-6.72031558 -35.76338205,-6.72987789 -35.76686853,-6.76094439 -35.76488876,-6.77148718 -35.76285172,-6.77596516 -35.75896833,-6.78450494 -35.7559243,-6.80560206 -35.75135031,-6.8211647 -35.75225071,-6.82255498 -35.75013731,-6.82574322</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_03</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-35.49853693,-6.70889242 -35.49672308,-6.72006898 -35.49866109,-6.72951652 -35.50829688,-6.74711129 -35.5093498,-6.75401886 -35.50832371,-6.761817 -35.50383383,-6.77071663 -35.4832763,-6.79502014 -35.47141258,-6.80542705 -35.46893687,-6.81020742 -35.4683419,-6.81135806 -35.47164146,-6.82220212 -35.48229218,-6.83291672 -35.48426061,-6.84006602 -35.48418048,-6.85230396 -35.48701472,-6.8571057</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Unknown</SimpleData>
+		<SimpleData name="RTT_DESCRI">Unknown</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_03</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-35.48701472,-6.8571057 -35.48262406,-6.85731738 -35.48115534,-6.85738901 -35.45875166,-6.85671806 -35.44792177,-6.85863735 -35.44143302,-6.86245345 -35.42766948,-6.86065625 -35.41039658,-6.86317543 -35.40559768,-6.86104105 -35.39241795,-6.85029073 -35.37218475,-6.85092974 -35.36233898,-6.84826711 -35.36135086,-6.84750378</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Unknown</SimpleData>
+		<SimpleData name="RTT_DESCRI">Unknown</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_03</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-35.48701472,-6.8571057 -35.49151991,-6.8636003</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Unknown</SimpleData>
+		<SimpleData name="RTT_DESCRI">Unknown</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_03</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-35.49151991,-6.8636003 -35.49074936,-6.86504313 -35.48774728,-6.87067136 -35.48403929,-6.87300532 -35.47452919,-6.87899057 -35.4684638,-6.88556966 -35.44472125,-6.92361026 -35.44051354,-6.9288363 -35.42958839,-6.93741614 -35.41032022,-6.96034808 -35.3900872,-6.98442555 -35.36700067,-7.00799744 -35.36075417,-7.01154154</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_03</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-35.75013731,-6.82574322 -35.76028056,-6.84058332 -35.77327733,-6.86534024 -35.77760317,-6.86815445 -35.7883911,-6.86944721 -35.79500572,-6.87298151 -35.80520624,-6.88368552 -35.81408319,-6.89023588 -35.82085411,-6.89951616</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_03</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-35.82085411,-6.89951616 -35.83269118,-6.89094255 -35.84927745,-6.88794615 -35.85807426,-6.88346817 -35.8741111,-6.86989551 -35.88869094,-6.86250599 -35.89127118,-6.86027374</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_03</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-35.78204353,-6.94827797 -35.7753448,-6.93360042 -35.77703484,-6.92742012 -35.78540811,-6.92017991 -35.8127137,-6.90652938 -35.82085411,-6.89951616</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_03</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-35.69203946,-6.99152476 -35.69551858,-6.98927453 -35.70613093,-6.96943085 -35.72174837,-6.95355939 -35.7289162,-6.95043938 -35.73674004,-6.94962554 -35.75210574,-6.95235773 -35.78204353,-6.94827797</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_03</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-35.62693029,-7.04908566 -35.62310417,-7.03998474 -35.6061898,-7.03286417 -35.59753417,-7.02723405 -35.58145141,-7.00978802 -35.57086174,-6.9940224 -35.55882262,-6.98375138 -35.54625696,-6.95730783 -35.52508934,-6.91276506 -35.51945884,-6.88764564 -35.51542274,-6.88046893 -35.50611109,-6.87230016 -35.49510581,-6.8660522 -35.49151991,-6.8636003</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_03</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-35.69203946,-6.99152476 -35.6744309,-7.00185494 -35.66558079,-7.01023633 -35.66088111,-7.01775267 -35.65248498,-7.02636918 -35.65011208,-7.0318498 -35.65038292,-7.04563622 -35.64688491,-7.04949428 -35.63884352,-7.04915578 -35.63266757,-7.04677532 -35.62693029,-7.04908566</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_03</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-35.62693029,-7.04908566 -35.60464851,-7.06155682 -35.59471127,-7.06555739 -35.58388894,-7.06678872 -35.56021499,-7.06646685 -35.54510122,-7.06212666 -35.53119668,-7.05343814 -35.50794212,-7.05009265 -35.50297539,-7.04937747 -35.49566657,-7.04606147 -35.48864749,-7.03838542 -35.4883003,-7.03820039 -35.48020165,-7.03390556 -35.46503837,-7.03323839 -35.45282746,-7.03513821 -35.45013421,-7.03620342 -35.44496921,-7.03824613 -35.44076529,-7.04301214 -35.43337255,-7.04566722 -35.41196055,-7.04789968 -35.40395357,-7.04526181 -35.39425276,-7.04857404 -35.39133838,-7.04782824 -35.38760752,-7.04687455 -35.36936959,-7.03582617 -35.36065967,-7.03751925</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_03</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-35.9069799,-7.0735319 -35.85977942,-7.08242979</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_03</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-35.85977942,-7.08242979 -35.85509487,-7.05434364 -35.85034567,-6.99708269 -35.84725571,-6.98762324 -35.84159082,-6.9813456 -35.83588793,-6.97805398 -35.82132718,-6.97303149 -35.81095127,-6.96945278 -35.78204353,-6.94827797</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_03</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-35.8457337,-7.15275915 -35.84120941,-7.14718668 -35.8330002,-7.14202509 -35.82539749,-7.12607575 -35.81837462,-7.11840292 -35.81411362,-7.11030673 -35.81038673,-7.09693479 -35.81301118,-7.05562355 -35.8115005,-7.04825255 -35.80698775,-7.03997 -35.79826351,-7.02395716 -35.79361336,-7.01080125 -35.78195962,-6.95436377 -35.78204353,-6.94827797</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_03</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-35.85977942,-7.08242979 -35.86121752,-7.09508221 -35.85990529,-7.10723869 -35.8457337,-7.15275915</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_03</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-35.8457337,-7.15275915 -35.84792704,-7.17782358 -35.85169211,-7.18843838 -35.85766017,-7.19415216</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_03</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-35.69203946,-6.99152476 -35.698494,-7.00700235 -35.7084046,-7.02206754 -35.73402789,-7.04836803 -35.75318909,-7.05942112 -35.76783754,-7.06398056 -35.77946482,-7.07125574 -35.78187948,-7.07404519 -35.78852075,-7.08171367 -35.79840847,-7.0986133 -35.81774147,-7.14825339 -35.83078758,-7.16978748 -35.83592989,-7.18088008 -35.83998488,-7.18521121 -35.85014648,-7.19605932</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_01</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.53885644,-7.219788 -39.57926558,-7.2003898 -39.59507751,-7.18008761 -39.60892478,-7.17423579 -39.61242858,-7.17127572</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_01</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.4714356,-7.22283468 -39.47886651,-7.21765287 -39.48416135,-7.2167812 -39.49979014,-7.21760789 -39.53124616,-7.22224765 -39.53885644,-7.219788</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_01</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.42403799,-7.22933912 -39.42366793,-7.21946103 -39.41278455,-7.20259902 -39.41071795,-7.19599819</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_01</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.42403799,-7.22933912 -39.46015173,-7.22759294 -39.46683496,-7.22604409 -39.4714356,-7.22283468</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_01</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.42403799,-7.22933912 -39.42232131,-7.22947973 -39.41644662,-7.22996093 -39.40973277,-7.2347241</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Unknown</SimpleData>
+		<SimpleData name="RTT_DESCRI">Unknown</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_01</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.40973277,-7.2347241 -39.40470121,-7.23192312 -39.40035629,-7.23134138 -39.38792047,-7.23177344 -39.37892539,-7.2346778 -39.36397927,-7.23477419 -39.33929722,-7.23046971</coordinates></LineString><LineString><coordinates>-39.32360848,-7.23920932 -39.32102581,-7.28302041 -39.32072454,-7.2881236 -39.31834031,-7.29728707 -39.31505965,-7.303917 -39.30577086,-7.31370777 -39.30093379,-7.31458227</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Unknown</SimpleData>
+		<SimpleData name="RTT_DESCRI">Unknown</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_01</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.40973277,-7.2347241 -39.42189795,-7.24245836 -39.42825704,-7.2461414 -39.44430541,-7.25133607 -39.44795235,-7.25458385 -39.45607765,-7.27164941 -39.45299903,-7.28149707 -39.46397407,-7.31420276 -39.471817,-7.3467788 -39.47195441,-7.34734013 -39.48185725,-7.37130836 -39.4922944,-7.38701388 -39.50117116,-7.39719531 -39.50545881,-7.40641794 -39.5069942,-7.40765065</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_03</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-35.58646863,-7.21894728 -35.58367537,-7.21631286 -35.57861502,-7.21497567</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_03</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-35.63831123,-7.24516436 -35.65584937,-7.23497245 -35.65990455,-7.22423271 -35.66526421,-7.21902274 -35.68353654,-7.21122989 -35.68866733,-7.20578669 -35.69160079,-7.193194 -35.68870928,-7.18580523 -35.68100356,-7.1776633 -35.66912076,-7.16626301 -35.66012568,-7.15763006 -35.64056399,-7.14197689 -35.63444134,-7.13592246 -35.62948991,-7.12804608 -35.62658687,-7.1050376 -35.63171766,-7.06582841 -35.63099662,-7.05769914 -35.63092045,-7.05685904 -35.62693029,-7.04908566</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_01</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.6087153,-7.23540835 -39.59509282,-7.23061279 -39.58591838,-7.22800685 -39.5435563,-7.22228866 -39.54044725,-7.22186908 -39.53885644,-7.219788</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_01</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.22238259,-7.29559852 -39.22337726,-7.2968845 -39.23227689,-7.30431409 -39.24023058,-7.306838 -39.24717708,-7.30904249 -39.25637817,-7.30866714 -39.26612849,-7.29888148 -39.27027515,-7.29777053 -39.28176881,-7.29856396 -39.29642103,-7.30535605 -39.29982379,-7.31020976 -39.30093379,-7.31458227</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_01</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.30093379,-7.31458227 -39.30288691,-7.32745941 -39.31333162,-7.34179071 -39.31962211,-7.35792167 -39.34740454,-7.38779256 -39.35145179,-7.39793203 -39.35120004,-7.40045556</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_01</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.56828883,-7.31974727 -39.55007548,-7.30255885 -39.51499935,-7.26505048 -39.51184078,-7.26204594 -39.49744408,-7.24836064 -39.47801979,-7.23487001 -39.47668073,-7.2307243 -39.47740554,-7.22682712 -39.47535697,-7.22428223 -39.4714356,-7.22283468</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_01</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.35120004,-7.40045556 -39.34254459,-7.44170708 -39.32495871,-7.50377033 -39.32128909,-7.52301261 -39.31770697,-7.54181527 -39.31293491,-7.56059734 -39.30823902,-7.57088574 -39.29988106,-7.57930418 -39.27841954,-7.58714484 -39.25592797,-7.60645384</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_01</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.35120004,-7.40045556 -39.32124713,-7.40661526 -39.24907691,-7.42708585 -39.22922511,-7.43354228 -39.18932721,-7.44651561 -39.16302105,-7.45591742 -39.15562057,-7.46044113 -39.14680863,-7.46816632 -39.13843537,-7.47819145 -39.13280865,-7.48938951 -39.13019553,-7.499587 -39.12922672,-7.50336114 -39.12699123,-7.52124829 -39.12229155,-7.53176539 -39.10627362,-7.54745825 -39.10091017,-7.5549846 -39.1001915,-7.55638602</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_01</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.25592797,-7.60645384 -39.24159629,-7.61366948 -39.23423002,-7.61452055 -39.22912985,-7.61883599 -39.22138192,-7.63185892</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_01</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-39.2638934,-7.63382486 -39.26213454,-7.63153225 -39.25592797,-7.60645384</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.20158006,-7.9553089 -36.19673165,-7.93371049</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.20158006,-7.9553089 -36.21072766,-7.94177159 -36.21728189,-7.93356688</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.13225367,-7.95310338 -36.13291938,-7.96119739</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.20158006,-7.9553089 -36.19025046,-7.95917944 -36.18104181,-7.95951982 -36.1656952,-7.95381637 -36.15765003,-7.95302484 -36.14190293,-7.96062415 -36.13291938,-7.96119739</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.49155803,-7.99120624 -36.53502274,-7.95732553 -36.56698604,-7.94119835 -36.57395802,-7.93604994</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.49155803,-7.99120624 -36.45634469,-7.9914561 -36.43407066,-7.98750638 -36.4157524,-7.98016354 -36.40173333,-7.97838165 -36.39456947,-7.98081597 -36.3892822,-7.98029036 -36.37899398,-7.97511289 -36.37351223,-7.96622611 -36.37200174,-7.96378045 -36.36605844,-7.960723 -36.34949486,-7.96028471 -36.34400555,-7.9574618 -36.34030908,-7.95879217 -36.33447654,-7.96491426 -36.32730872,-7.96757746 -36.3224792,-7.96705714 -36.3176803,-7.96447276 -36.30359659,-7.95006661 -36.29445258,-7.94536165 -36.28409954,-7.94500066 -36.26888277,-7.94710252 -36.26177599,-7.9500961 -36.25777808,-7.95178084 -36.23429105,-7.95285795 -36.20847327,-7.95597022 -36.20158006,-7.9553089</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.26712413,-8.0 -36.26594552,-7.99663073 -36.26024623,-7.99242775 -36.24717707,-7.98836047 -36.23965449,-7.98298701 -36.22126384,-7.96347711 -36.20158006,-7.9553089</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.09119801,-8.0 -36.09479147,-7.99053661 -36.10112373,-7.98144004 -36.11441043,-7.96876098 -36.13291938,-7.96119739</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.01682056,-8.0350044 -36.01764677,-8.03596692 -36.02405557,-8.0392627</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.0381134,-8.01434722 -36.03514477,-8.01848121 -36.02976999,-8.02439218 -36.02825156,-8.03540521 -36.02405557,-8.0392627</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.0414963,-8.06263822 -36.03110886,-8.04647249 -36.028141,-8.0441389 -36.02102288,-8.0424432 -36.02405557,-8.0392627</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.0414963,-8.06263822 -36.04877091,-8.01565736 -36.04858685,-8.00753362</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.43404779,-8.06714342 -36.43896104,-8.06029992 -36.44180681,-8.05297465 -36.44335169,-8.03805254 -36.45061118,-8.0273266 -36.49155803,-7.99120624</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.43055337,-8.07055373 -36.43404779,-8.06714342</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.41411963,-8.08623884 -36.41108713,-8.08068943 -36.40084843,-8.06908615 -36.37062827,-8.05198089 -36.3279534,-8.03634454 -36.31186288,-8.03317842 -36.30416869,-8.03007031 -36.28962325,-8.02419751 -36.28065483,-8.02294728 -36.27149192,-8.01824855 -36.2471542,-8.01153848 -36.23896029,-8.00317089 -36.23795708,-8.0</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.41411963,-8.08623884 -36.43055337,-8.07055373</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.0414963,-8.06263822 -36.03390512,-8.08052443 -36.0238609,-8.09166617 -36.02080897,-8.09332162</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.43404779,-8.06714342 -36.44113548,-8.0718155 -36.45447548,-8.07425492 -36.47234354,-8.08340743 -36.47958753,-8.09520633 -36.48486328,-8.09755994 -36.50307853,-8.09636981</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.42121885,-8.11053649 -36.41853713,-8.09432974 -36.41411963,-8.08623884</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.43055337,-8.07055373 -36.4348259,-8.08002377 -36.43521506,-8.086463 -36.43281551,-8.09517193 -36.42121885,-8.11053649</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.02107223,-8.09717097 -36.03745643,-8.10998915 -36.05157851,-8.12326149</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.38571936,-8.12362852 -36.40469741,-8.09556108 -36.41411963,-8.08623884</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.42121885,-8.11053649 -36.41786202,-8.11363024 -36.40141675,-8.12127018 -36.38571936,-8.12362852</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.92991632,-8.13518342 -36.92029962,-8.12843328 -36.91232684,-8.11870772 -36.90169522,-8.09723656 -36.89530947,-8.09028344 -36.85077673,-8.07264143 -36.84231576,-8.06612868 -36.83239364,-8.06327251 -36.81428536,-8.05805592 -36.80741502,-8.05385502 -36.80376808,-8.04968454 -36.80318842,-8.03841693 -36.80022811,-8.0349416 -36.77647024,-8.03793725 -36.75344475,-8.03680041 -36.72450639,-8.02465338 -36.70851132,-8.01499548 -36.69426337,-8.01164054 -36.68463892,-8.00648973 -36.67755501,-8.00113573 -36.66216663,-8.0 -36.6325303,-7.98147388 -36.62128839,-7.97881181 -36.61093138,-7.97891425 -36.60465242,-7.98411421 -36.58938973,-7.98989288 -36.58155057,-7.99094391 -36.5765228,-7.98812875 -36.57077795,-7.98736897 -36.54852679,-7.99186699 -36.54724499,-7.99212648 -36.53779991,-7.99269764 -36.53162774,-7.98940942 -36.52127072,-7.98950997 -36.49155803,-7.99120624</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.98038892,-8.04542401 -36.97855377,-8.05745981 -36.97595596,-8.06456376 -36.96294029,-8.07732107 -36.95291894,-8.08964443 -36.93924706,-8.09802923 -36.9354973,-8.10489182 -36.92991632,-8.13518342</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.30391695,-8.12319175 -36.32830815,-8.12622066 -36.35814672,-8.13689141 -36.37501534,-8.13293734 -36.37965019,-8.13068862 -36.38571936,-8.12362852</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.25374217,-8.13757124 -36.28523637,-8.1245928 -36.29402166,-8.12216188 -36.30391695,-8.12319175</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.92991632,-8.13518342 -36.97983556,-8.14504525 -36.99888223,-8.15417376</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.99888223,-8.15417376 -37.00749212,-8.14505394 -37.02509313,-8.13531874 -37.04759981,-8.11781016 -37.06520636,-8.09474896</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.14736938,-8.0 -36.14684301,-8.00142188 -36.14995188,-8.01088039 -36.15513615,-8.02036478 -36.16587834,-8.02761463 -36.17669292,-8.04773614 -36.18746573,-8.05506896 -36.23200226,-8.08537681 -36.23287203,-8.08975311 -36.23120505,-8.09456165 -36.22441863,-8.10321898 -36.20646666,-8.1207132 -36.19417183,-8.14481259 -36.18664547,-8.15956309</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.25374217,-8.13757124 -36.21327217,-8.14952474 -36.19311135,-8.15871713 -36.18664547,-8.15956309</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.05157851,-8.12326149 -36.05664447,-8.12355236 -36.06389999,-8.11444483 -36.06760023,-8.11334031 -36.07745355,-8.11782452 -36.09048454,-8.12648488 -36.11896514,-8.1532573 -36.12561794,-8.15563397 -36.15169899,-8.15249166 -36.15889743,-8.15283677 -36.16436766,-8.15309911 -36.18363564,-8.16090783 -36.18476114,-8.16321854</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.18664547,-8.15956309 -36.18476114,-8.16321854</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.18631359,-8.16806413 -36.18476114,-8.16321854</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.50307853,-8.09636981 -36.51740265,-8.093071 -36.53251641,-8.08012583 -36.53945914,-8.07743938 -36.5581055,-8.07877826 -36.62278754,-8.09183986 -36.62639234,-8.09256751 -36.66073987,-8.11359319 -36.68160623,-8.12368201 -36.69621272,-8.13807493 -36.70072169,-8.14800253 -36.70158769,-8.15329831 -36.69609062,-8.17301366 -36.69651417,-8.17518432 -36.69784171,-8.18199626</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.84730914,-8.19466588 -36.81745149,-8.18381784 -36.80387883,-8.18093389 -36.77695465,-8.17654418 -36.75527578,-8.17794901 -36.73551942,-8.17109398 -36.72583393,-8.17169198 -36.72446444,-8.17237276 -36.71494677,-8.177104 -36.69784171,-8.18199626</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.92991632,-8.13518342 -36.92584998,-8.1512384 -36.92093277,-8.15993032 -36.91250602,-8.173647 -36.90087137,-8.18572618 -36.89228812,-8.1913958 -36.88605112,-8.19294843 -36.85654444,-8.19291214 -36.84730914,-8.19466588</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.05157851,-8.12326149 -36.04877469,-8.12621593 -36.0461578,-8.13285059 -36.04743204,-8.14160053 -36.04487997,-8.14294999 -36.03245549,-8.14142042 -36.02641297,-8.14525504 -36.02434934,-8.14508789</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.18631359,-8.16806413 -36.17678836,-8.17462054 -36.14109798,-8.19052696 -36.13642893,-8.19552998 -36.13766102,-8.20772748 -36.13601313,-8.21069723 -36.13252645,-8.21295541 -36.12607191,-8.21310906 -36.11688992,-8.21001249 -36.10303489,-8.2119178 -36.08863064,-8.20209225 -36.08689505,-8.2015553 -36.08013528,-8.19946288 -36.07069019,-8.19888965 -36.05635454,-8.20262618 -36.0435753,-8.2107477 -36.04137183,-8.21083322</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-37.16592024,-8.26980868 -37.17358022,-8.26389223 -37.17918785,-8.26162045 -37.19139101,-8.25667772 -37.19428423,-8.25475733</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-37.16592024,-8.26980868 -37.1566925,-8.27065465 -37.14499284,-8.26366429 -37.13509755,-8.26151461 -37.1240883,-8.25475786 -37.11105354,-8.24246889 -37.10299685,-8.24102304 -37.06131365,-8.20941355 -37.05968466,-8.20769591 -37.05560302,-8.20338823 -37.05555728,-8.18269915 -37.05404282,-8.17119321 -37.04747772,-8.15780539 -37.04058829,-8.15475947 -37.02494041,-8.15209778 -37.01434318,-8.15177818 -36.99888223,-8.15417376</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.56752772,-8.27748586 -36.56785204,-8.26875312 -36.58151618,-8.24107464 -36.58489984,-8.22616575 -36.57671747,-8.19297981 -36.56752016,-8.16897964 -36.56667703,-8.16161545 -36.56707374,-8.1574221 -36.56771842,-8.15059183 -36.56592179,-8.14574625 -36.55678553,-8.13829795 -36.54486851,-8.13196947 -36.53531645,-8.11991883 -36.52801141,-8.11340816 -36.52090841,-8.10965727 -36.51286703,-8.10773476 -36.50305169,-8.09912864 -36.50307853,-8.09636981</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.62491606,-8.27967165 -36.62344356,-8.26632315 -36.62502662,-8.24702833 -36.63295744,-8.23814098 -36.6579285,-8.23080154 -36.66582114,-8.2253608 -36.67754367,-8.20616539 -36.6921959,-8.19320491 -36.69451134,-8.18972882 -36.69828416,-8.18406959 -36.69784171,-8.18199626</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.62491606,-8.27967165 -36.65659718,-8.27101999 -36.68066028,-8.26251895 -36.69102485,-8.26353937 -36.70455933,-8.27056695 -36.71538922,-8.27090073 -36.73920436,-8.26423262 -36.74642189,-8.26430028 -36.74888985,-8.26432428 -36.76108545,-8.26650912 -36.77123645,-8.26591491 -36.80160516,-8.24895764 -36.80692287,-8.24739744 -36.81111149,-8.24352842 -36.81650158,-8.23438366 -36.83303076,-8.21729371 -36.84377673,-8.20245079 -36.84496687,-8.1998252 -36.84730914,-8.19466588</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.51840208,-8.30020329 -36.52176666,-8.28759283 -36.52111045,-8.28413772 -36.50907134,-8.26746074 -36.50015262,-8.26070115 -36.48126982,-8.23728462 -36.47211447,-8.210062 -36.46782304,-8.2019711 -36.46211996,-8.19662373 -36.45986557,-8.19576548 -36.45592114,-8.19425971 -36.45229347,-8.18893426 -36.43936153,-8.14925863 -36.42800149,-8.13442609 -36.4237214,-8.12564572 -36.42121885,-8.11053649</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.51840208,-8.30020329 -36.53615561,-8.30038643 -36.54731757,-8.2917633 -36.56302649,-8.28893567 -36.56698604,-8.28529742 -36.56752772,-8.27748586</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.62491606,-8.27967165 -36.62861252,-8.30154897</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.62861252,-8.30154897 -36.61546322,-8.30210784 -36.61041257,-8.29998877 -36.60105518,-8.29069904 -36.59414667,-8.28971001 -36.58261105,-8.29051307 -36.57711021,-8.28723902 -36.57189551,-8.27867978 -36.56752772,-8.27748586</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.28256221,-8.31513977 -36.28729629,-8.30769543 -36.28749852,-8.30737773 -36.29848093,-8.29485515 -36.29971321,-8.28797253 -36.29680639,-8.24012094 -36.29467012,-8.22538367 -36.2906036,-8.21821206 -36.29443368,-8.20584107 -36.29335789,-8.19939239 -36.2920761,-8.19667627 -36.28255843,-8.17651375 -36.25374217,-8.13757124</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.18631359,-8.16806413 -36.18734742,-8.17819112 -36.18513101,-8.18988985 -36.18667212,-8.19588379 -36.19463355,-8.20494086 -36.19403461,-8.21642771 -36.20094672,-8.23627857 -36.19860841,-8.23877999 -36.18890761,-8.24050801 -36.18423837,-8.24528215 -36.18046574,-8.25236512 -36.17605202,-8.25507349 -36.16286095,-8.25928876 -36.15906149,-8.26475142 -36.15699383,-8.26772685 -36.1502418,-8.27316476 -36.1419602,-8.29077143 -36.13085172,-8.32388971 -36.12951663,-8.32787137</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.12951663,-8.32787137 -36.10333257,-8.31928643 -36.10013166,-8.31895785</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.12951663,-8.32787137 -36.13803864,-8.32889084 -36.14127734,-8.32800859</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.27431104,-8.3306818 -36.2517624,-8.32628925 -36.22616953,-8.32599933 -36.17965323,-8.32017794 -36.16258615,-8.32021045 -36.14910516,-8.32514373 -36.14127734,-8.32800859</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.27431104,-8.3306818 -36.28256221,-8.31513977</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.41636665,-8.33131798 -36.41575618,-8.33063418 -36.40930561,-8.32342534 -36.39964677,-8.32102296 -36.39139559,-8.31656558 -36.38274374,-8.30658619 -36.37485129,-8.29063705 -36.37240979,-8.28233334 -36.37192916,-8.24324606 -36.36943436,-8.23954109 -36.35903558,-8.23108769 -36.35367195,-8.22672462 -36.34328848,-8.20730015 -36.33887098,-8.19024082 -36.33546445,-8.1858358 -36.32974625,-8.18209454 -36.32686608,-8.17171863 -36.32395548,-8.14410119 -36.32057578,-8.13739869 -36.30391695,-8.12319175</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.27431104,-8.3306818 -36.28948982,-8.33245368</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.28948982,-8.33245368 -36.28550721,-8.31977178 -36.28256221,-8.31513977</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.42664712,-8.33993524 -36.421608,-8.33712103 -36.41636665,-8.33131798</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.28948982,-8.33245368 -36.3233796,-8.33536617 -36.34414673,-8.33444498 -36.36488343,-8.33605092 -36.39685826,-8.34352398 -36.39986034,-8.34309665 -36.41170497,-8.33586588 -36.41278832,-8.33480937 -36.41636665,-8.33131798</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.62861252,-8.30154897 -36.6548958,-8.32433991 -36.67612069,-8.34615996</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.51480107,-8.35649391 -36.49315641,-8.35305128 -36.47291942,-8.3477812 -36.4323844,-8.34252454 -36.42664712,-8.33993524</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.51480107,-8.35649391 -36.5167884,-8.35010439 -36.52507019,-8.323493 -36.51840208,-8.30020329</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.67612069,-8.34615996 -36.68154518,-8.3572484 -36.68158336,-8.35870559 -36.68178181,-8.36662015</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.90936654,-8.36213216 -36.85671624,-8.34487438 -36.8311538,-8.34096151 -36.8114205,-8.33043384 -36.7890206,-8.32433896 -36.77117163,-8.31948185 -36.76402667,-8.31918437 -36.7533837,-8.32276157 -36.71701046,-8.33942797 -36.69849773,-8.34545801 -36.67612069,-8.34615996</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.99888223,-8.15417376 -37.00344469,-8.15950016 -37.00363161,-8.16432949 -36.97879795,-8.23422717 -36.96079249,-8.26211733 -36.95890419,-8.26906686 -36.95649728,-8.27794268 -36.94100948,-8.30746372 -36.92055893,-8.32429606 -36.91565324,-8.33092013 -36.91256328,-8.3410082 -36.90936654,-8.36213216</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.51480107,-8.35649391 -36.52999874,-8.35872071 -36.55099872,-8.3577861 -36.55945213,-8.36522968 -36.56633381,-8.36874867 -36.57737348,-8.3716192</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.68178181,-8.36662015 -36.66988747,-8.36955079 -36.60410697,-8.37372788 -36.57737348,-8.3716192</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.71792976,-8.38565151 -36.7168122,-8.38219073 -36.70928566,-8.37384222 -36.7008056,-8.36824234 -36.69367974,-8.36610418 -36.68178181,-8.36662015</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.90936654,-8.36213216 -36.90688327,-8.38142301 -36.89963909,-8.39147479 -36.89455423,-8.39234929</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.89455423,-8.39234929 -36.89109043,-8.39277832 -36.88672642,-8.39066984 -36.86574175,-8.39025026 -36.85554123,-8.39567569 -36.85197064,-8.39882953 -36.84832766,-8.4020482 -36.84069452,-8.40427784 -36.79866035,-8.40940767 -36.7743302,-8.40007504 -36.76855473,-8.39785959 -36.74164208,-8.39024648 -36.71792976,-8.38565151</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-37.22304119,-8.38848569 -37.20426947,-8.40047175</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Unknown</SimpleData>
+		<SimpleData name="RTT_DESCRI">Unknown</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-37.06342705,-8.41565507 -37.0660018,-8.41087053 -37.06890862,-8.40547175 -37.08310309,-8.38132946 -37.09236522,-8.37703802 -37.09830095,-8.37267779 -37.11000818,-8.36407754 -37.12791442,-8.34652038 -37.14062127,-8.3443242 -37.14757533,-8.34001254 -37.15317918,-8.33178046 -37.15644076,-8.32189935 -37.15696712,-8.32031534 -37.15510566,-8.30129722 -37.15399169,-8.28994361 -37.15566642,-8.28306099 -37.16592024,-8.26980868</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Unknown</SimpleData>
+		<SimpleData name="RTT_DESCRI">Unknown</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-37.06342705,-8.41565507 -37.06843574,-8.41489321 -37.07473379,-8.41551975 -37.08397683,-8.41352655 -37.11012271,-8.40431507 -37.18045037,-8.40764147 -37.1928826,-8.40389927 -37.20426947,-8.40047175</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Unknown</SimpleData>
+		<SimpleData name="RTT_DESCRI">Unknown</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-37.06106947,-8.4213829 -37.05339058,-8.41765979 -37.05142215,-8.41670421 -37.03235243,-8.41742033 -37.02935035,-8.41888527 -37.02392964,-8.4215307 -37.01585008,-8.42192174 -36.99187468,-8.42010696 -36.96722794,-8.41598412 -36.9543457,-8.41219335 -36.94579704,-8.41372689 -36.93913271,-8.41090966 -36.92599495,-8.40987394 -36.91910552,-8.4063644 -36.90941624,-8.40627765 -36.90275192,-8.4039193 -36.89645765,-8.39503857 -36.89455423,-8.39234929</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Unknown</SimpleData>
+		<SimpleData name="RTT_DESCRI">Unknown</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-37.06342705,-8.41565507 -37.06106947,-8.4213829</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.72976683,-8.42462255 -36.71792976,-8.38565151</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-37.0637818,-8.42807483 -37.06404489,-8.42439745 -37.06292734,-8.42326742 -37.06106947,-8.4213829</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.23747626,-8.4624768 -36.24179076,-8.44895933 -36.24211508,-8.44091416 -36.23968889,-8.43122961 -36.24210733,-8.42182913 -36.24707406,-8.4113092 -36.2526626,-8.3872289 -36.26749041,-8.36210438 -36.27272042,-8.34859749 -36.27311713,-8.34412386 -36.27431104,-8.3306818</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.31517416,-8.46771625 -36.32384492,-8.45585442 -36.33068086,-8.44328309 -36.33520892,-8.43068605 -36.33562094,-8.41482441 -36.33314126,-8.40950879 -36.32858277,-8.4046307 -36.3201065,-8.39970876 -36.3100929,-8.38787075 -36.29867163,-8.35968121 -36.29484173,-8.3502244 -36.28948982,-8.33245368</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.23747626,-8.4624768 -36.25801848,-8.46201904 -36.27597802,-8.4649801 -36.28561778,-8.46945675 -36.30268863,-8.46987728 -36.31517416,-8.46771625</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Primary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.14127734,-8.32800859 -36.15248107,-8.3359566 -36.1604461,-8.34478574 -36.1635818,-8.3526402 -36.1685181,-8.38327691 -36.19045905,-8.42389557</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.23723119,-8.46313739 -36.23747626,-8.4624768</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.94433966,-8.49672322 -36.95409017,-8.49059962 -37.01918026,-8.4884023 -37.02473837,-8.48615075 -37.03055957,-8.47999105 -37.05152515,-8.45110693 -37.05345163,-8.44845205 -37.0637818,-8.42807483</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.9403992,-8.49898819 -36.94433966,-8.49672322</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.44066997,-8.5116168 -36.43663407,-8.50099556 -36.43627931,-8.49110406 -36.4387435,-8.4768733 -36.43724435,-8.46650987 -36.43251803,-8.45565219 -36.43522262,-8.44050498 -36.4334755,-8.4315186 -36.4294738,-8.41790965 -36.41518408,-8.39186961 -36.41256341,-8.38300891 -36.41216273,-8.37748614 -36.4150085,-8.37038995 -36.42249687,-8.36081313 -36.42533111,-8.35486511 -36.42610166,-8.34774586 -36.42500301,-8.34267612 -36.42664712,-8.33993524</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.57737348,-8.3716192 -36.56692878,-8.37772182 -36.55187228,-8.38377663 -36.54003143,-8.39124307 -36.53071222,-8.39965433 -36.52405545,-8.41821092 -36.50804129,-8.44839762 -36.50060263,-8.45383836 -36.49282074,-8.45761307 -36.48065576,-8.46351724 -36.46947093,-8.4732876 -36.45687105,-8.48626226 -36.44375615,-8.50360112 -36.44066997,-8.5116168</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.44013983,-8.5178194 -36.42572782,-8.5061683 -36.3961601,-8.48837565 -36.38649369,-8.48597139 -36.37519073,-8.48561947 -36.35371013,-8.48768524 -36.34920494,-8.47797876 -36.33008192,-8.47131822 -36.3287506,-8.47085479 -36.32669825,-8.46876331 -36.31517416,-8.46771625</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.44013983,-8.5178194 -36.44066997,-8.5116168</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.68178181,-8.36662015 -36.68093868,-8.37149805 -36.67671963,-8.37812515 -36.6534233,-8.40065962 -36.61235814,-8.44531919 -36.60287091,-8.44798371 -36.59503553,-8.4555369 -36.56604388,-8.48348339 -36.55091481,-8.49574665 -36.54396055,-8.49866576 -36.5363465,-8.49881753 -36.52183905,-8.49567786 -36.48496628,-8.49184796 -36.47337718,-8.49609479 -36.44643013,-8.51236731 -36.44013983,-8.5178194</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.46161647,-8.53736313 -36.45431143,-8.53015713 -36.44445413,-8.5240736 -36.44013983,-8.5178194</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-37.20426947,-8.40047175 -37.22219971,-8.41089602</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.87251286,-8.57679836 -36.86583322,-8.57535837 -36.85320273,-8.56857402 -36.8486329,-8.56370255 -36.84049985,-8.545001 -36.83661647,-8.54082675 -36.82100677,-8.53217414 -36.8146095,-8.52567669 -36.79960252,-8.5023127 -36.79326251,-8.4900655 -36.79210659,-8.48602582 -36.79036325,-8.47992036 -36.77547837,-8.46805475 -36.76292045,-8.45459946 -36.75123591,-8.44644166 -36.72976683,-8.42462255</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.9403992,-8.49898819 -36.92972184,-8.50579257 -36.91502765,-8.52221875 -36.87556464,-8.57130621 -36.87251286,-8.57679836</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.95943831,-8.58699888 -36.95880894,-8.58009433 -36.94962694,-8.54942889 -36.94609453,-8.53169067 -36.94358064,-8.50430495 -36.9403992,-8.49898819</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-37.1484642,-8.6168709 -37.15080648,-8.61297995 -37.14468382,-8.57245533 -37.13140109,-8.56016069 -37.12593464,-8.55160712 -37.12099078,-8.53639035 -37.12241357,-8.53157331 -37.1206245,-8.52488894 -37.10840225,-8.50331403 -37.10334782,-8.49439436 -37.10142134,-8.47713375 -37.09778215,-8.47112373 -37.08788308,-8.46851346 -37.08291238,-8.45628553 -37.0656204,-8.42877961 -37.0637818,-8.42807483</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.94433966,-8.49672322 -36.97491079,-8.50986666 -36.98271555,-8.51453401 -36.99988166,-8.53031835 -37.0099907,-8.53546425 -37.03277579,-8.54232684 -37.05669015,-8.55262375 -37.06818399,-8.55757139 -37.08269503,-8.56114198 -37.08773812,-8.56509208 -37.09762963,-8.59552958 -37.10285566,-8.60546115 -37.12115105,-8.62561895 -37.14249804,-8.61878112 -37.1484642,-8.6168709</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-37.15612659,-8.62304748 -37.1484642,-8.6168709</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.82965465,-8.64080056 -36.82437135,-8.63799183 -36.80104837,-8.63869567 -36.78448101,-8.63302227 -36.76613232,-8.62066072 -36.75125122,-8.60810186 -36.73982617,-8.59626385 -36.7284546,-8.5791378 -36.72787853,-8.57786942 -36.71987533,-8.56019792 -36.714077,-8.53990556 -36.71530909,-8.53209873 -36.71382147,-8.51920704 -36.7069207,-8.49407571 -36.71046823,-8.48560151 -36.70504752,-8.47382265 -36.70509345,-8.46945373 -36.70942306,-8.45774178 -36.70983508,-8.45662214 -36.72976683,-8.42462255</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.87251286,-8.57679836 -36.82965465,-8.64080056</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.44013983,-8.5178194 -36.43688204,-8.52031514 -36.43287656,-8.52763077 -36.41017142,-8.55636406 -36.38959877,-8.57959934 -36.38914324,-8.58017644</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.82965465,-8.64080056 -36.81211092,-8.66455749 -36.8097229,-8.67281433</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.46161647,-8.53736313 -36.46176918,-8.54449372 -36.46596139,-8.56224536 -36.47631462,-8.58650105 -36.4892426,-8.62872214 -36.49040618,-8.63684046</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.93260579,-8.71785454 -36.93801875,-8.70709231 -36.94359595,-8.7032318 -36.95053093,-8.70260243 -36.95449066,-8.69872755 -36.96434399,-8.65649512 -36.957344,-8.61411754 -36.95701211,-8.60526762 -36.95697016,-8.60422509 -36.95943831,-8.58699888</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.85559849,-8.72889422 -36.85382454,-8.72128867 -36.8515435,-8.71804713 -36.84581756,-8.71339509 -36.8396072,-8.71057899 -36.83206176,-8.702919 -36.8097229,-8.67281433</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.93260579,-8.71785454 -36.916008,-8.71494772 -36.88594055,-8.71973887 -36.85559849,-8.72889422</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.60670012,-8.70191543 -36.6064568,-8.70144556 -36.60279852,-8.69795889 -36.59681705,-8.69582848 -36.59270857,-8.69141779 -36.5889435,-8.67620083 -36.58485032,-8.67017929 -36.57361598,-8.6624766 -36.56037142,-8.64854333 -36.54957971,-8.63193609 -36.5487861,-8.63071628 -36.53645706,-8.617711 -36.52860638,-8.59647175 -36.52384188,-8.588605 -36.51219173,-8.57744606 -36.46567921,-8.54058369 -36.46161647,-8.53736313</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.63479395,-8.71763598 -36.63516231,-8.71714107 -36.64903265,-8.69335844 -36.65533447,-8.66444106 -36.66122428,-8.65299995 -36.67684173,-8.63843353 -36.67928701,-8.62488846 -36.67931744,-8.62188903 -36.67936715,-8.61683933 -36.67716983,-8.60600944 -36.67798234,-8.5942888 -36.67605209,-8.57978154 -36.67046354,-8.56178855 -36.66750721,-8.5576211 -36.64638891,-8.54637522 -36.6411247,-8.54195413 -36.64114757,-8.53988553 -36.62950517,-8.52758125 -36.62286371,-8.5226869 -36.62075428,-8.522809 -36.61270136,-8.52327545 -36.59828955,-8.53301916 -36.59019846,-8.53454779 -36.57612986,-8.53348636 -36.56478495,-8.53705034 -36.54053871,-8.53841303 -36.53012084,-8.54129603 -36.52296832,-8.54099174 -36.51127244,-8.53397172 -36.50067521,-8.52997777 -36.48806002,-8.52522177 -36.46801752,-8.52202314 -36.44939043,-8.51607795 -36.44013983,-8.5178194</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.98167938,-8.73104866 -36.9681359,-8.72184565 -36.96197128,-8.71420193 -36.95735553,-8.71370221 -36.94668572,-8.718668 -36.93260579,-8.71785454</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.95943831,-8.58699888 -36.96628181,-8.59602741 -36.97109224,-8.59997845 -36.99547569,-8.60938839 -37.00349421,-8.61612605 -37.00966638,-8.62284953 -37.02325435,-8.65240195 -37.03152083,-8.65753179 -37.03561778,-8.664236 -37.03679279,-8.67747015 -37.0389806,-8.70210013</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.72042049,-8.73030821 -36.72220229,-8.7299118 -36.72996906,-8.72818282 -36.75470727,-8.72542853 -36.75865548,-8.72339526 -36.76357269,-8.71654231 -36.76750181,-8.71611971 -36.77322776,-8.7207727 -36.77697752,-8.71551793 -36.78081894,-8.70060451 -36.7804451,-8.69163136 -36.7827836,-8.68866349 -36.79063031,-8.68896589 -36.8025169,-8.67757788 -36.80900565,-8.67510803 -36.8097229,-8.67281433</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="MED_DESCRI">Without Median</SimpleData>
+		<SimpleData name="RTT_DESCRI">Secondary Route</SimpleData>
+		<SimpleData name="F_CODE_DES">Road</SimpleData>
+		<SimpleData name="ISO">BRA</SimpleData>
+		<SimpleData name="ISOCOUNTRY">BRAZIL</SimpleData>
+		<SimpleData name="region">region_02</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-36.86097453,-8.74448846 -36.86076349,-8.7443514 -36.85802847,-8.74041755 -36.85559849,-8.72889422</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
