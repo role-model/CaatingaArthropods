@@ -1,8 +1,8 @@
 forest <- rgdal::readOGR(system.file('raw_data', 'sosma_fragments', 
                                      package = 'CaatingaArthropods'), 'sosma')
 
-lcover <- raster(system.file('raw_data', 'landcover_sosma.tif', 
-                             package = 'CaatingaArthropods'))
+lcover <- raster::raster(system.file('raw_data', 'landcover_sosma.tif', 
+                                     package = 'CaatingaArthropods'))
 lcoverkey <- data.frame(code = c(14, 20, 30, 40, 50, 60, 110, 120, 130, 
                                  150, 180, 200, 210), 
                         type = c('Cropland', 'Mosaic mostly cropland', 
@@ -16,10 +16,10 @@ lcoverkey <- data.frame(code = c(14, 20, 30, 40, 50, 60, 110, 120, 130,
                                  'Bare area', 'Water bodies'), 
                         stringsAsFactors = FALSE)
 
-regions <- readOGR(system.file('raw_data', 'caatinga_regions.kml', 
-                               package = 'CaatingaArthropods'), 'caatinga_regions')
+regions <- rgdal::readOGR(system.file('raw_data', 'caatinga_regions.kml', 
+                                      package = 'CaatingaArthropods'), 'caatinga_regions')
 regions@data <- data.frame(region = regions$Name)
 regions$region <- gsub('_', '_0', regions$region)
 
-roads <- readOGR(system.file('raw_data', 'BRA_rds', package = 'CaatingaArthropods'), 
-                 'BRA_roads')
+roads <- rgdal::readOGR(system.file('raw_data', 'BRA_rds', package = 'CaatingaArthropods'), 
+                        'BRA_roads')
