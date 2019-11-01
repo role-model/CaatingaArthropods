@@ -1,0 +1,139 @@
+---
+title: "Making Candidate Sampling Points in the Caatinga"
+author: "A. J. Rominger"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+In this vignette we will generate some candidate points in the high elevation forests of the Caatinga region. To start we'll load our special package
+```{r, load_package}
+library(CaatingaArthropods)
+```
+
+You'll notice this package loads a few other required packages (mostly for spatial data).
+
+We will also change the default string handeling to not make characters into factors.
+
+```{r}
+options(stringsAsFactors = FALSE)
+```
+
+
+Now we load some raw spatial data about the Caatinga using the custom function from our *CaatingaArthropods* package.
+
+```{r}
+loadCaatingaSpatial()
+```
+
+Look at the help documentation for `loadCaatingaSpatial` to see exactly what data we just loaded. Note, the `regions` object was made by Andy Rominger by simply drawing polygons in Google Earth to delineate the different regions and then saving them as a `.kml`.
+
+Now we can clean up and process those spatial data
+
+```{r}
+# clip roads to region
+roads <- intersect(roads, regions)
+names(roads)[names(roads) == 'Name'] <- 'region'
+
+# combine forest with region
+forest <- intersect(forest, regions)
+
+# find cover types that we don't want
+good <- c(40, 50, 60)
+bad <- rasterToPolygons(lcover, function(x) !(x %in% good), dissolve = TRUE)
+```
+
+Let's look at which cover types we're considering "good":
+```{r}
+knitr::kable(lcoverkey[lcoverkey$code %in% good, ])
+```
+
+And which we're considering "bad":
+```{r}
+knitr::kable(lcoverkey[!(lcoverkey$code %in% good), ])
+```
+
+If we want to change that designation as "good" versus "bad," we just need to change which numbers are included in the `good` vector made above.
+
+And now we're ready to make our randomized candidate sampling points!  First we need to specify a few key parameters:
+```{r}
+# how far from roads are we willing to hike (in meters)
+roadBufferMax <- 4500
+
+# how much of a buffer (in meters) should there be around roads 
+# (no points will be made within this distance to a road)
+roadBufferMin <- 500
+
+# how much of a buffer (in meters) around the edges of framents should we have
+edgeBuffer <- 100
+```
+
+
+Now we use function `sampArea` to construct valid areas within which to generate points and function `sampPnts` to make the actual points.  You can look at the help documents for both those functions to understand them a little more if you need.  Below we combine everything into one loop over all the `r length(unique(regions$region))` regions.
+
+```{r, eval=FALSE}
+# get list of region names
+rr <- unique(forest$region)
+
+# list the desired number of candidate points for each region
+# NOTE: we're putting 24 in region 1, which is the long north-south ridge
+# in the western part of the Caatinga; in all other regions we put 12 points
+npnt <- c(24, rep(12, 6))
+names(npnt) <- rr
+
+# now we'll look over regions and make points
+candArea <- candPnts <- vector('list', length(rr))
+names(candArea) <- names(candPnts) <- rr
+
+for(i in rr) {
+    cat(paste(which(rr == i), 'of', length(rr)), '\n')
+    
+    candArea[[i]] <- sampArea(region = forest[forest$region == i, ], 
+                                  edgeBuffer = edgeBuffer, 
+                              roads = roads[roads$region == i, ], 
+                              roadBufferMin = roadBufferMin, 
+                              roadBufferMax = roadBufferMax, 
+                              exclude = bad, utmZone = 24)
+    candPnts[[i]] <- sampPoints(npnt[i], candArea[[i]], 1000, 
+                                name = paste0('caa', gsub('region_', '', i)), 
+                                seed = 123)
+    
+    # make candArea[[i]] into a SpatialPolygonsDataFrame
+    np <- length(candArea[[i]]@polygons)
+    candArea[[i]] <- SpatialPolygonsDataFrame(candArea[[i]], 
+                                              data.frame(region = rep(i, np)), 
+                                              match.ID = FALSE)
+    
+}
+
+# combine and re-project into original CRS
+candArea <- do.call(rbind, candArea)
+candArea <- spTransform(candArea, CRS(proj4string(regions)))
+candPnts <- do.call(rbind, candPnts)
+candPnts <- spTransform(candPnts, CRS(proj4string(regions)))
+```
+
+
+Finally we can write out these points to multiple formats (see help doc for `writeMultiOGR`).  You can use the `.kml` files to visualize everything in Google Earth to evaluate whether you're making good choices in terms of buffers, land cover types, etc.
+
+```{r, eval=FALSE}
+writeMultiOGR(candPnts, 'inst/cand_points', 'cand_points', 
+              driver = c('ESRI Shapefile', 'KML', 'GPX'), overwrite_layer = TRUE)
+writeMultiOGR(candArea, 'inst/samp_areas', 'samp_areas',
+              driver = c('ESRI Shapefile', 'KML'), overwrite_layer = TRUE)
+writeMultiOGR(bad, 'inst/bad_areas', 'bad_areas',
+              driver = c('ESRI Shapefile', 'KML'), overwrite_layer = TRUE)
+writeOGR(forest, 'inst/forest.kml', 'forest', driver = 'KML', overwrite_layer = TRUE)
+writeOGR(roads, 'inst/roads.kml', 'roads', driver = 'KML', overwrite_layer = TRUE)
+```
