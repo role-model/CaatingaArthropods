@@ -82,7 +82,7 @@ edgeBuffer <- 100
 
 Now we use function `sampArea` to construct valid areas within which to generate points and function `sampPnts` to make the actual points.  You can look at the help documents for both those functions to understand them a little more if you need.  Below we combine everything into one loop over all the `r length(unique(regions$region))` regions.
 
-```{r, eval=FALSE}
+```{r}
 # get list of region names
 rr <- unique(forest$region)
 
@@ -97,8 +97,6 @@ candArea <- candPnts <- vector('list', length(rr))
 names(candArea) <- names(candPnts) <- rr
 
 for(i in rr) {
-    cat(paste(which(rr == i), 'of', length(rr)), '\n')
-    
     candArea[[i]] <- sampArea(region = forest[forest$region == i, ], 
                                   edgeBuffer = edgeBuffer, 
                               roads = roads[roads$region == i, ], 
@@ -127,7 +125,7 @@ candPnts <- spTransform(candPnts, CRS(proj4string(regions)))
 
 Finally we can write out these points to multiple formats (see help doc for `writeMultiOGR`).  You can use the `.kml` files to visualize everything in Google Earth to evaluate whether you're making good choices in terms of buffers, land cover types, etc.
 
-```{r, eval=FALSE}
+```{r, eval = FALSE}
 writeMultiOGR(candPnts, 'inst/cand_points', 'cand_points', 
               driver = c('ESRI Shapefile', 'KML', 'GPX'), overwrite_layer = TRUE)
 writeMultiOGR(candArea, 'inst/samp_areas', 'samp_areas',

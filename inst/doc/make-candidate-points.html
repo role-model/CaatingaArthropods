@@ -211,8 +211,6 @@ candArea &lt;-<span class="st"> </span>candPnts &lt;-<span class="st"> </span><s
 <span class="kw">names</span>(candArea) &lt;-<span class="st"> </span><span class="kw">names</span>(candPnts) &lt;-<span class="st"> </span>rr
 
 <span class="cf">for</span>(i <span class="cf">in</span> rr) {
-    <span class="kw">cat</span>(<span class="kw">paste</span>(<span class="kw">which</span>(rr <span class="op">==</span><span class="st"> </span>i), <span class="st">'of'</span>, <span class="kw">length</span>(rr)), <span class="st">'</span><span class="ch">\n</span><span class="st">'</span>)
-    
     candArea[[i]] &lt;-<span class="st"> </span><span class="kw">sampArea</span>(<span class="dt">region =</span> forest[forest<span class="op">$</span>region <span class="op">==</span><span class="st"> </span>i, ], 
                                   <span class="dt">edgeBuffer =</span> edgeBuffer, 
                               <span class="dt">roads =</span> roads[roads<span class="op">$</span>region <span class="op">==</span><span class="st"> </span>i, ], 
