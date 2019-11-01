@@ -90,6 +90,14 @@ roads &lt;-<span class="st"> </span><span class="kw">intersect</span>(roads, reg
 
 <span class="co"># combine forest with region</span>
 forest &lt;-<span class="st"> </span><span class="kw">intersect</span>(forest, regions)
+<span class="co">#&gt; Warning in RGEOSUnaryPredFunc(spgeom, byid, &quot;rgeos_isvalid&quot;): Ring Self-</span>
+<span class="co">#&gt; intersection at or near point -41.159213350000002 -3.4895512100000001</span>
+<span class="co">#&gt; Warning in RGEOSUnaryPredFunc(spgeom, byid, &quot;rgeos_isvalid&quot;): Ring Self-</span>
+<span class="co">#&gt; intersection at or near point -39.004360230000003 -4.3332655400000002</span>
+<span class="co">#&gt; x[subsx, ] is invalid</span>
+<span class="co">#&gt; Warning in rgeos::gIntersection(x[subsx, ], y[subsy, ], byid =</span>
+<span class="co">#&gt; TRUE, drop_lower_td = TRUE): Invalid objects found; consider using</span>
+<span class="co">#&gt; set_RGEOS_CheckValidity(2L)</span>
 
 <span class="co"># find cover types that we don't want</span>
 good &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="dv">40</span>, <span class="dv">50</span>, <span class="dv">60</span>)
@@ -196,7 +204,8 @@ roadBufferMin &lt;-<span class="st"> </span><span class="dv">500</span>
 
 <span class="co"># how much of a buffer (in meters) around the edges of framents should we have</span>
 edgeBuffer &lt;-<span class="st"> </span><span class="dv">100</span></code></pre></div>
-<p>Now we use function <code>sampArea</code> to construct valid areas within which to generate points and function <code>sampPnts</code> to make the actual points. You can look at the help documents for both those functions to understand them a little more if you need. Below we combine everything into one loop over all the 7 regions.</p>
+<p>Now we use function <code>sampArea</code> to construct valid areas within which to generate points and function <code>sampPnts</code> to make the actual points. You can look at the help documents for both those functions to understand them a little more if you need. NOTE: <code>sampPnts</code> lets you set the random seed. If you keep the same random seed across different runs you’ll keep getting exactly the same points. If you want to get different points, you need to change the seed to a different value!!!</p>
+<p>Below we combine everything into one loop over all the 7 regions.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># get list of region names</span>
 rr &lt;-<span class="st"> </span><span class="kw">unique</span>(forest<span class="op">$</span>region)
 

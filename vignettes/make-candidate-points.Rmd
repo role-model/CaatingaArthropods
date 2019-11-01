@@ -80,9 +80,11 @@ edgeBuffer <- 100
 ```
 
 
-Now we use function `sampArea` to construct valid areas within which to generate points and function `sampPnts` to make the actual points.  You can look at the help documents for both those functions to understand them a little more if you need.  Below we combine everything into one loop over all the `r length(unique(regions$region))` regions.
+Now we use function `sampArea` to construct valid areas within which to generate points and function `sampPnts` to make the actual points. You can look at the help documents for both those functions to understand them a little more if you need.  NOTE: `sampPnts` lets you set the random seed.  If you keep the same random seed across different runs you'll keep getting exactly the same points.  If you want to get different points, you need to change the seed to a different value!!!
 
-```{r}
+Below we combine everything into one loop over all the `r length(unique(regions$region))` regions.
+
+```{r, eval = FALSE}
 # get list of region names
 rr <- unique(forest$region)
 
