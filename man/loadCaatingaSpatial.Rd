@@ -10,7 +10,14 @@ loadCaatingaSpatial(message = "Here ya go...")
 \item{message}{a nice thing to say to yourself}
 }
 \value{
-Creats the following objects
+Creats the following objects:
+\describe{
+  \item{\code{forest}}{SOSMA fragments as a \code{SpatialPolygonsDataFrame}}
+  \item{\code{lcover}}{SOSMA landcover classes as a \code{raster}}
+  \item{\code{lcoverke}}{key to SOSMA landcover as a \code{data.frame}}
+  \item{\code{regions}}{a \code{SpatialPolygonsDataFrame} that delineates the different regions}
+  \item{\code{roads}}{a \code{SpatialLinesDataFrame} of the roads}
+}
 }
 \description{
 A helper function to load raw spatial data
