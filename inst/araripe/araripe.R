@@ -1,6 +1,6 @@
 # note: there was a bug, so you'll need to re-install our special package (just do this once)
 # you might need to install `devtools` from CRAN
-if(!havePkg) devtools::install_github('role-model/CaatingaArthropods')
+devtools::install_github('role-model/CaatingaArthropods', force = TRUE)
 
 library(CaatingaArthropods)
 
@@ -37,3 +37,10 @@ npnt <- 12
 arPoints <- sampPoints(npnt, arArea, dmin = 1000, 
                        name = paste('caa', 'araripe', sep = '_'), 
                        seed = 123)
+
+# reproject to geographical CRS
+arPoints <- spTransform(arPoints, CRS(proj4string(roads)))
+
+# write the points out
+writeMultiOGR(arPoints, 'inst/araripe/araripe_points', 'araripe_points', 
+              driver = c('ESRI Shapefile', 'KML', 'GPX'), overwrite_layer = TRUE)

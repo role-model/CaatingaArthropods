@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.4.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata><bounds minlat="-7.428637155200801" minlon="-39.577851834071453" maxlat="-7.210698575025711" maxlon="-39.274781932302872"/></metadata>                
+<wpt lat="-7.254550063470121" lon="-39.521016603793733">
+  <name>caa_araripe_01</name>
+</wpt>
+<wpt lat="-7.428637155200801" lon="-39.274781932302872">
+  <name>caa_araripe_02</name>
+</wpt>
+<wpt lat="-7.374258142284791" lon="-39.297601689884985">
+  <name>caa_araripe_03</name>
+</wpt>
+<wpt lat="-7.403255611772524" lon="-39.358241567175831">
+  <name>caa_araripe_04</name>
+</wpt>
+<wpt lat="-7.263056451972736" lon="-39.485219503490498">
+  <name>caa_araripe_05</name>
+</wpt>
+<wpt lat="-7.356998971678484" lon="-39.449210039924026">
+  <name>caa_araripe_06</name>
+</wpt>
+<wpt lat="-7.210698575025711" lon="-39.544169156996809">
+  <name>caa_araripe_07</name>
+</wpt>
+<wpt lat="-7.28268921030693" lon="-39.512861919864569">
+  <name>caa_araripe_08</name>
+</wpt>
+<wpt lat="-7.251380488718635" lon="-39.559074401376193">
+  <name>caa_araripe_09</name>
+</wpt>
+<wpt lat="-7.413097626406903" lon="-39.372466090134829">
+  <name>caa_araripe_10</name>
+</wpt>
+<wpt lat="-7.262784652605231" lon="-39.577851834071453">
+  <name>caa_araripe_11</name>
+</wpt>
+<wpt lat="-7.303999162560245" lon="-39.533945148582411">
+  <name>caa_araripe_12</name>
+</wpt>
+</gpx>

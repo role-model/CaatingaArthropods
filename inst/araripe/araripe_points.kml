@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Folder><name>araripe_points</name>
+  <Placemark>
+	<name>caa_araripe_01</name>
+      <Point><coordinates>-39.5210166037937,-7.25455006347012</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>caa_araripe_02</name>
+      <Point><coordinates>-39.2747819323029,-7.4286371552008</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>caa_araripe_03</name>
+      <Point><coordinates>-39.297601689885,-7.37425814228479</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>caa_araripe_04</name>
+      <Point><coordinates>-39.3582415671758,-7.40325561177252</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>caa_araripe_05</name>
+      <Point><coordinates>-39.4852195034905,-7.26305645197274</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>caa_araripe_06</name>
+      <Point><coordinates>-39.449210039924,-7.35699897167848</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>caa_araripe_07</name>
+      <Point><coordinates>-39.5441691569968,-7.21069857502571</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>caa_araripe_08</name>
+      <Point><coordinates>-39.5128619198646,-7.28268921030693</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>caa_araripe_09</name>
+      <Point><coordinates>-39.5590744013762,-7.25138048871863</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>caa_araripe_10</name>
+      <Point><coordinates>-39.3724660901348,-7.4130976264069</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>caa_araripe_11</name>
+      <Point><coordinates>-39.5778518340715,-7.26278465260523</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>caa_araripe_12</name>
+      <Point><coordinates>-39.5339451485824,-7.30399916256024</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
