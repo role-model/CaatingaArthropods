@@ -64,7 +64,7 @@ sampPoints <- function(n, area, dmin, name = 'pnt', seed = 123) {
                 return(as.data.frame(runifpoint(1, as.owin(o[[j]]))))
             } else { # multiple points to (try) to make
                 set.seed(seed)
-                return(as.data.frame(rSSI(dmin, ae[temp[i], 2], as.owin(o[[j]]), 
+                return(as.data.frame(rSSI(dmin, temp[i], as.owin(o[[j]]), 
                                           giveup = 50)))
             }
         })
